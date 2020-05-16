@@ -2,7 +2,7 @@ body{
     background: #e5e5e5;
     color: #25282B;
 
-    
+    font-family: 'Montserrat', sans-serif;
 
     margin: 0;
 }
@@ -19,6 +19,12 @@ a{
 
 a:hover{
     text-decoration: underline;
+}
+
+p, .description{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
 }
 
 #container{
@@ -44,10 +50,10 @@ main{
 
 #buttons{
     display: flex;
-
     justify-content: space-evenly;
 
     margin-bottom: 32px;
+    
 }
 
 button{
@@ -57,7 +63,10 @@ button{
 
     border: none;
 
+    font-size: 14px;
     font-weight: bold;
+    line-height: 18px;
+    letter-spacing: 0.2px;
 
     cursor: pointer;
     
@@ -79,7 +88,7 @@ button.fat{
 
     border-radius: 6px;
 
-    box-shadow: 0px 8px 16px rgba(255, 0, 92, 0.5);
+    box-shadow: 0px 8px 16px rgba(255, 0, 92, 0.3);
 }
 
 button.fat:hover{
@@ -87,7 +96,55 @@ button.fat:hover{
 }
 
 footer{
+    
     text-align: center;
+    
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+
+    color: #777;
+}
+
+footer a{
+    opacity: 0.7;
+}
+
+
+
+
+
+.idea{
+    display: flex;
+
+    background-color: white;
+    box-shadow: 0 4px 16px -8px rgba(1, 1, 1, 0.5);
+    border-radius: 8px;
+
+    padding: 32px;
+
+    margin-bottom: 32px;
+}
+
+.idea img{
+    width: 60px;
+    height: 60px;
+
+    margin-right: 32px;
+}
+
+.idea h3{
+    margin: 0;
+}
+
+.idea p{
+    margin: 8px 0;
+    color: #777;
+}
+
+.idea .description{
+    margin: 16px 0;
 }
 
 
