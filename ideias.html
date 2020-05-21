@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Ideias - Casa Criativa</title>
+</head>
+
+<body>
+
+    <header>
+
+        <img src="logo.png" alt="Casa Criativa">
+        <nav>
+            <li><a href="inde.html"></a>Inicio</li>
+            <li><a href="#"></a>Ideias</li>
+            <li><a href="#"></a>Nova Ideia</li>
+        </nav>
+
+    </header>
+
+    <section id="title">
+
+        <p>Em Exibição</p>
+        <h1>Ideias</h1>
+
+    </section>
+
+    <main>
+
+        <section id="ideais">
+
+            <div class="idea">
+                <img src="https://image.flaticon.com/icons/svg/2729/2729007.svg" alt="Imagem do curso de Programação">
+
+                <div class="content">
+                    <h3>Curso de Programação</h3>
+                    <p>Estudo</p>
+                    <div class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus distinctio minima
+                        cupiditate est autem voluptatem dignissimos explicabo velit quo sit reprehenderit placeat
+                        deserunt quam incidunt, hic enim corporis vel commodi.
+                    </div>
+                    <a href="#">Ir para Ideia</a>
+                </div>
+            </div>
+
+            <div class="idea">
+                <img src="https://image.flaticon.com/icons/svg/2729/2729005.svg" alt="Imagem de Exercicios">
+
+                <div class="content">
+                    <h3>Exercicios</h3>
+                    <p>Saude</p>
+                    <div class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus distinctio minima
+                        cupiditate est autem voluptatem dignissimos explicabo velit quo sit reprehenderit placeat
+                        deserunt quam incidunt, hic enim corporis vel commodi.
+                    </div>
+                    <a href="#">Ir para Ideia</a>
+                </div>
+            </div>
+
+            <div class="idea">
+                <img src="https://image.flaticon.com/icons/svg/2729/2729027.svg" alt="Imagem de Meditação">
+
+                <div class="content">
+                    <h3>Meditação</h3>
+                    <p>Mentalidade</p>
+                    <div class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus distinctio minima
+                        cupiditate est autem voluptatem dignissimos explicabo velit quo sit reprehenderit placeat
+                        deserunt quam incidunt, hic enim corporis vel commodi.
+                    </div>
+                    <a href="#">Ir para Ideia</a>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p id="footer">Com 😍 <a href="#">Diogo Vaz</a></p>
+
+    </footer>
+
+
+    <!-- Modal -->
+
+    <div id="modal" class="hide">
+        <div class="content">
+            <h1>Nova Ideia</h1>
+
+            <form action="" method="post">
+
+                <div class="input-wrapper">
+                    <label for="title">Titulo da Ideia</label>
+                    <input type="text" name="title">
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="category">Categoria</label>
+                    <input type="text" name="category">
+
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="image">Link da Imagem</label>
+                    <input type="url" name="image">
+
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="description">Digite uma descrição para essa ideia</label>
+                    <textarea name="description" cols="30" rows="10"></textarea>
+
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="link">Link da Ideia</label>
+                    <input type="url" name="link">
+
+                </div>
+
+                <a href="#" onclick="onOff()">Voltar</a>
+                <button>Salvar</button>
+
+            </form>
+
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
