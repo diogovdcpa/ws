@@ -31,7 +31,7 @@ p, .description{
 
     margin: 40px auto;
 
-    display: flex;
+
 }
 
 #intro{
@@ -259,6 +259,10 @@ form button:hover{
 
 #modal.hide{
     display: none;
+}
+
+#page-ideas #container{
+    display: block;
 }
 
 
